@@ -1,0 +1,19 @@
+$ git clone https://github.com/ChrisMHM/160823-Checkpoint-ChristianHernandez.git
+$ cd 160823-Checkpoint-ChristianHernandez/
+$ touch main.js index.html
+$ git add .
+$ git commit -m "commit 01 de Christian Hernandez"
+$ git push origin main
+$ git branch feature
+$ git checkout feature 
+$ mkdir Hardware Software SeguridadInformatica
+$ touch Hardware/resumen.txt
+$ touch Software/resumen.txt
+$ touch SeguridadInformatica/resumen.txt
+$ git add .
+$ git commit -m "commit 02 de Christian Hernandez"
+$ git push origin feature 
+$ git checkout main
+$ mv main.js resumenHardware.txt
+$ mv index.html resumenSoftware.txt
+$ touch comandos.txt
